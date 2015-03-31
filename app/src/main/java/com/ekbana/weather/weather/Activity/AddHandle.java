@@ -20,7 +20,7 @@ import com.ekbana.weather.weather.model.Tweet;
 import java.util.ArrayList;
 
 public class AddHandle extends ActionBarActivity {
-
+//manas shrestha's comment
     Toolbar toolbar;
     ListView listView;
     ArrayList<Tweet> userDataHandle;
