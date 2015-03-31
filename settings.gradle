@@ -1,0 +1,2 @@
+include ':app', ':android-query-full.0.26.7', ':MPChartLib', ':mpandroidchartlibrary-2-0-8'
+include ':ViewPagerIndicator'

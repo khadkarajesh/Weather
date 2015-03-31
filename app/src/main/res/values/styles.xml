@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#c7c7c7</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="android:colorActivatedHighlight">#c7c7c7</item>
+
+    </style>
+    <style name="toolbartextstyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+    <!--<style name="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_new</item>
+        <item name="android:height">5dp</item>
+    </style>-->
+
+</resources>

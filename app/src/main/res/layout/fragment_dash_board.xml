@@ -1,0 +1,118 @@
+<com.ekbana.weather.weather.common.CustomScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/weather"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tweet_rectangle">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerWeather"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewPagerHeight">
+
+            </android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/weatherIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+            </com.viewpagerindicator.CirclePageIndicator>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tweets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/latestTweetTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="LATEST TWEET"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerTweets"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewPagerLatestTweet"
+                android:layout_below="@+id/latestTweetTitle"
+                android:background="@drawable/tweet_rectangle">
+
+            </android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/tweetsIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+            </com.viewpagerindicator.CirclePageIndicator>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pinnedTweets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tweets"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/pinnedTweetTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="PINNED TWEET"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerPinnedTweets"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewPagerHeight"
+                android:layout_below="@+id/pinnedTweetTitle"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/tweet_rectangle">
+
+            </android.support.v4.view.ViewPager>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/pinnedTweetsIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="4dp">
+
+            </com.viewpagerindicator.CirclePageIndicator>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</com.ekbana.weather.weather.common.CustomScrollView>
+

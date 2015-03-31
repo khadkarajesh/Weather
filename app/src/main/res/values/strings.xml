@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user">/@testUser</string>
+    <string name="dummyText">this is the dummy text for the testing purpose of android gui.this is the dummy text for the testing purpose of android gui.</string>
+    <string name="yes">Add</string>
+    <string name="no">Cancel</string>
+    <string name="title_activity_add_all">AddAll</string>
+    <string name="title_activity_add_handle">AddHandle</string>
+    <string name="addHandle">Add User</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_pinned_user">PinnedUser</string>
+</resources>

@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+     android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/addAllBody"
+    tools:context="com.ekbana.weather.weather.Fragment.AddAll">
+
+    <LinearLayout
+        android:id="@+id/addWeatherDialog"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/rectangle_add_all"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="WEATHER"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/add_location" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/addTweetsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/rectangle_add_all"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="TWEETS"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/add_user" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/addPinnedTweetsDialog"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/rectangle_add_all"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="PINNED TWEETS"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/add_user" />
+    </LinearLayout>
+
+
+</LinearLayout>
